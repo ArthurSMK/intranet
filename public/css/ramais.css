@@ -1,0 +1,118 @@
+.container-ramais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    font-family: Roboto, sans-serif;
+}
+
+.container-numeros {
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;  
+    width: 58%;
+}
+
+#divBusca {
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+} 
+
+/* Style The Dropdown Button */
+.dropbtn2 {
+    background-color: #004992;
+    color: white;
+    padding: 16px 32px 16px 32px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown2 {
+    position: relative;
+    display: inline-block;
+    background-color: #004992;
+    font-size: 15px;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #1c5894;
+    border-radius: 10px;
+    min-width: 175%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content2 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content2 a:hover {background-color: #416f9c;}
+  
+  .dropdown2:hover {
+      border-radius: 10px 10px 0px 10px;
+  }
+  /* Show the dropdown menu on hover */
+  .dropdown2:hover .dropdown-content2 {
+    display: block;
+    border-radius: 10px 0px 10px 10px;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn2 {
+    background-color: #1c5894;
+  }
+
+.buscar {
+    width: 600px;
+    height: 30px;
+    outline: none;
+    padding-left: 10px;
+    border-style: solid;
+    border-radius:5px 0px 0px 5px;
+    border-color: #004992;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #004992;
+    outline: none;
+    border: 0;
+    position: absolute;   
+}
+
+.titulo {
+    margin-top: 20px;
+    color: #004992;
+    font-size: 40px;
+    font-weight: 700;
+    align-items: baseline;
+}
+
+.subtitulo {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: black;
+}
+
+.text {
+    margin: 20px 0px 20px 0px;
+    color: black;
+}
+

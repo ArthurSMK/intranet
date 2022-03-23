@@ -1,0 +1,99 @@
+/* Site */
+.container-help {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    font-family: Roboto, sans-serif;
+}
+
+.container-categorias {
+    flex-direction: column;
+    align-items: center;  
+    width: 58%;
+}
+
+/* Barra de Pesquisa */
+/* 
+#divBusca {
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+} 
+
+.buscar {
+    width: 600px;
+    height: 30px;
+    outline: none;
+    padding-left: 10px;
+    border-style: solid;
+    border-radius:5px 0px 0px 5px;
+    border-color: #004992;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #004992;
+    outline: none;
+    border: 0;
+    position: absolute;   
+} */
+
+/* Opções de Ajuda */
+
+.titulo-options {
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.options {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-ajuda {
+    text-decoration: none;
+}
+.option {
+    background-color: white;
+    padding: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 30px;
+    border-color: #004992;
+    width: 200px;
+    height: 200px;
+}
+
+/* Topicos de Ajuda */
+.mp4 {
+    margin-left: 27px;
+    width: 70%;
+}
+
+.titulo {
+    margin-top: 20px;
+    color: #004992;
+    font-size: 40px;
+    font-weight: 700;
+    align-items: baseline;
+}
+
+.subtitulo {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: black;
+}
+
+.text {
+    margin: 5px 0px 20px 27px;
+    color: black;
+}
+

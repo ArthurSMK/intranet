@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    
+}
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    /* position: fixed; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.baseboard{
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
